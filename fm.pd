@@ -1,0 +1,14 @@
+#N canvas 2 613 1916 1015 12;
+#X obj 596 261 cycle~;
+#X floatatom 595 213 5 0 0 0 - - -, f 5;
+#X obj 529 348 +~, f 10;
+#X obj 529 263 cycle~;
+#X obj 596 301 *~, f 9;
+#X floatatom 655 213 5 0 0 0 - - -, f 5;
+#X floatatom 528 210 6 0 0 0 - - -, f 6;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 1;
+#X connect 5 0 4 1;
+#X connect 6 0 3 0;
